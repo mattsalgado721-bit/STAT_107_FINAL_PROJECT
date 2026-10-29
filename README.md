@@ -2,22 +2,22 @@
 Repository for STAT107 final project.
 
 Half-way project requirements (from what he said in class):
-**Intro**
+\n**Intro**
 - What question are you trying to answer
 - Why
 - How are you planning to do this
-**Data**
+\n**Data**
 - Where did you source the data
 - What variable/observations are included
 - Summaries of the variables
 - Cleaning 
-**Visualization** 
+\n**Visualization** 
 - Histograms
 - Boxplots
 - Scatterplots
-**Future work**
+\n**Future work**
 - Describe what is left to do and what is your plan
-**Contributions**
+\n**Contributions**
 Member 1 did this []
 Member 2 did this []
 Member 3 did this []
