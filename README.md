@@ -32,6 +32,6 @@ or breast cancer, similar to an actual medical research center.
 **Future work**
 - Describe what is left to do and what is your plan
 **Contributions**
-Member 1 did this []
+Member 1 - Sri: Worked on 
 Member 2 did this []
 Member 3 did this []
