@@ -22,7 +22,7 @@ or breast cancer, similar to an actual medical research center.
   * text here
 * **Contributions**
   * Member 1 - Sri
-    * Worked on the writing that explained our project details and 
+    * Worked on the writing that explained our project details and ?
   * Member 2 did this []
   * Member 3 did this []
 
