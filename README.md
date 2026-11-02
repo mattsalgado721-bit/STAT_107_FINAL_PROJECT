@@ -14,11 +14,11 @@ or breast cancer, similar to an actual medical research center.
 * **Data: Where did you source the data, What variable/observations are included, Summaries of the variables, Cleaning**
   * text here
 * **Visualization: Histograms, Boxplots, Scatterplots** 
- * text here
+  * text here
 * **Future work: Describe what is left to do and what is your plan**
- * text here
+  * text here
 * **Contributions**
- * Member 1 - Sri
-  * Worked on the writing that explained our project details and 
- * Member 2 did this []
- * Member 3 did this []
+  * Member 1 - Sri
+    * Worked on the writing that explained our project details and 
+  * Member 2 did this []
+  * Member 3 did this []
