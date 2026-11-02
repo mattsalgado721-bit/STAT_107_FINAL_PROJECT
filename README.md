@@ -2,11 +2,8 @@
 Repository for STAT107 final project.
 
 Half-way project requirements (from what he said in class):
-* **Intro**
-  * What question are you trying to answer
-  * Why
-  * How are you planning to do this
-For our project, we want to answer the question "Using one’s genetic profile can 
+* **Intro: What question are you trying to answer, Why, How are you planning to do this**
+  * For our project, we want to answer the question "Using one’s genetic profile can 
 we predict the possibility of tumors/breast cancer". We chose this as
 our topic of interest because ??????. We’ll be centering our research 
 around specific genes that flag tumors and breast cancer more often such as TP53, 
