@@ -12,7 +12,7 @@ statistical procedures such as linear or logistic regression with the genetic
 profile, and classify/return if the person of interest is at risk of any tumor 
 or breast cancer, similar to an actual medical research center. 
 * **Data: Where did you source the data, What variable/observations are included, Summaries of the variables, Cleaning**
- * text here
+  * text here
 * **Visualization: Histograms, Boxplots, Scatterplots** 
  * text here
 * **Future work: Describe what is left to do and what is your plan**
