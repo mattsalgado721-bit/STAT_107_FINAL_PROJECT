@@ -6,7 +6,7 @@ Repository for STAT107 final project.
 * **Intro: What is the central question that motivates your analysis? Who may this analysis benefit? Are you trying to train a model, test a hypothesis, classify objects apart? Why? This has to be written with proper grammar and syntax: sentences, paragraphs, and a narrative structure.**
   * For our project, we want to answer the question "Using one’s genetic profile can 
 we predict the possibility of tumors/breast cancer". We chose this as
-our topic of interest because ??????. We’ll be centering our research 
+our topic of interest because we thought it would be an interesting topic to learn more about. We’ll be centering our research 
 around specific genes that flag tumors and breast cancer more often such as TP53, 
 BRCA1, BRCA2, CDKN2A, etc. Our goal is to extract the data, perform various 
 statistical procedures such as linear or logistic regression with the genetic 
