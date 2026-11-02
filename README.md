@@ -16,7 +16,9 @@ or breast cancer, similar to an actual medical research center.
   * text here
 * **Data: Where did you source the data, What variable/observations are included, Summaries of the variables, Cleaning**
   * text here
-* **Visualization: Histograms, Boxplots, Scatterplots** 
+* **Visualization: What do these visualizations suggest about the hypothesis, model or simulation you are aiming to perform? If you aim to generate further data visualizations, describe them here.** 
+  * text here
+* **Analysis: Provide some preliminary plans of what analysis you aim to complete. Mention models, tests, procedures, and some ideas of what expected outcomes you hope to find.**
   * text here
 * **Future work: Describe what is left to do and what is your plan**
   * text here
@@ -32,8 +34,4 @@ be sure to include this in the final project:
 What are the variables and number of observations available? What steps where performed to clean
 the data? If the data is obtained via randomized simulations, clarify the data generating procedure.
 • Visualization: Provide preliminary visualizations in the form of histograms, density plots, scatter
-plots, box-plots, and numerical summaries of the data, depending on the type of analysis. What do
-these visualizations suggest about the hypothesis, model or simulation you are aiming to perform? If
-you aim to generate further data visualizations, describe them here.
-• Analysis: Provide some preliminary plans of what analysis you aim to complete. Mention models,
-tests, procedures, and some ideas of what expected outcomes you hope to find.
+plots, box-plots, and numerical summaries of the data, depending on the type of analysis.
