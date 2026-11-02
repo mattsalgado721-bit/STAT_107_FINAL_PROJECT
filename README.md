@@ -2,7 +2,10 @@
 Repository for STAT107 final project.
 
 Half-way project requirements (from what he said in class):
-**Intro**
+* **Intro**
+  * What question are you trying to answer
+  * Why
+  * How are you planning to do this
 For our project, we want to answer the question "Using one’s genetic profile can 
 we predict the possibility of tumors/breast cancer". We chose this as
 our topic of interest because ??????. We’ll be centering our research 
@@ -15,11 +18,6 @@ or breast cancer, similar to an actual medical research center.
 
 
 
-
-
-- What question are you trying to answer
-- Why
-- How are you planning to do this
 **Data**
 - Where did you source the data
 - What variable/observations are included
