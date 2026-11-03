@@ -1,0 +1,6 @@
+---
+title: "FinalReport"
+output: html_document
+---
+
+An additional R Markdown file named FinalReport.Rmd, and its knitted output in PDF format containing your up-to-date version of the final report.
