@@ -21,8 +21,8 @@ or breast cancer, similar to an actual medical research center.
   * We sourced the data from cbioportal.org's targeted sequencing of primary breast tumors.
   * The variables listed on the site that we are interested in further exploring include the cancer types detailed and the gene codes.
   *  Variable definitions:
-  *   The cancer type detailed includes the various forms of breast cancer and how frequently that specific type appears within the samples
-  *    The specific gene code is the main variable we will be focusing on since our question is directed towards reading specific genes associated with breast cancer to make valid predictions. It lists out types of genes, the count of mutations it has, and their frequency.
+    * The cancer type detailed includes the various forms of breast cancer and how frequently that specific type appears within the samples
+    * The specific gene code is the main variable we will be focusing on since our question is directed towards reading specific genes associated with breast cancer to make valid predictions. It lists out types of genes, the count of mutations it has, and their frequency.
   *    
 * **Visualization: What do these visualizations suggest about the hypothesis, model or simulation you are aiming to perform? If you aim to generate further data visualizations, describe them here.** 
   * text here
