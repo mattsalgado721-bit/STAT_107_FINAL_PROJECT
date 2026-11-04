@@ -1,0 +1,55 @@
+---
+title: "Cleaning and Processing"
+output: html_document
+---
+
+
+```{r}
+source("01_funct_DataCleaning.R")
+```
+
+
+```{r}
+clinical_data <- read.csv("clinical_data.csv")
+
+summary(clinical_data)
+```
+
+```{r}
+relevant_cols <- c("ER_STATUS", "GRADE", "TMB_NONSYNONYMOUS", "TUMOR_SIZE", "AGE_AT_DIAGNOSIS", "LYMPH_NODES_EXAMINED_POSITIVE", "OS_STATUS", "RFS_STATUS")
+relevant_clinical_data <- clinical_data[, relevant_cols]
+
+missing <- is.na(relevant_clinical_data)
+View(missing)
+byrow_missing <- apply(missing, MARGIN = 1, sum)
+
+cleaned_clinical_data <- relevant_clinical_data[byrow_missing == 0, ]
+```
+
+
+```{r}
+# Overall survival status and Recurrence-free survival should be represented as true or false
+cleaned_clinical_data$OS_BOOL <- NA
+cleaned_clinical_data$OS_BOOL[cleaned_clinical_data$OS_STATUS == "1:DECEASED"] <- 1
+cleaned_clinical_data$OS_BOOL[cleaned_clinical_data$OS_STATUS == "0:LIVING"]   <- 0
+
+cleaned_clinical_data$RFS_BOOL <- NA
+cleaned_clinical_data$RFS_BOOL[cleaned_clinical_data$RFS_STATUS == "1:Recurred"]     <- 1
+cleaned_clinical_data$RFS_BOOL[cleaned_clinical_data$RFS_STATUS == "0:Not Recurred"] <- 0
+
+cleaned_clinical_data$OS_STATUS  <- NULL
+cleaned_clinical_data$RFS_STATUS <- NULL
+```
+
+
+```{r}
+# Grade and ER Status should be turned to factors
+cleaned_clinical_data$GRADE  <- turn_to_factor(cleaned_clinical_data, 2)
+cleaned_clinical_data$ER_STATUS <- turn_to_factor(cleaned_clinical_data, 1)
+
+summary(cleaned_clinical_data)
+```
+```{r}
+save(cleaned_clinical_data, file = "12_DataSaving.RData")
+```
+
