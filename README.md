@@ -38,7 +38,7 @@ or breast cancer, similar to an actual medical research center.
   Moreover, the box plot 'Positive lymph nodes by recurrence' suggest that 'No recurrence' has a smaller cluster of positive lymph nodes compared to 'Recurrence' that has a much larger cluster of positive lymph nodes. This box plot suggests that 
   the larger the number of positive lymph nodes, the more likely there is to be a recurrence of the cancer.
 * **Analysis: Provide some preliminary plans of what analysis you aim to complete. Mention models, tests, procedures, and some ideas of what expected outcomes you hope to find.**
-  * We plan to use ?? models to better answer our questions
+  * We plan to use ?? models to better answer our question
 * **Future work: Describe what is left to do and what is your plan**
   * We need to further analyze the results and flesh out the accuracy and cases of false positives, false negatives, etc.
 
