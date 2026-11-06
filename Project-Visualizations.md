@@ -49,8 +49,9 @@ ggplot(cleaned_df, aes(TUMOR_SIZE, LYMPH_NODES_EXAMINED_POSITIVE, color = Reccur
 ``` r
 ggplot(cleaned_df, aes(x = factor(RFS_BOOL, labels = c("No recurrence", "Recurrence")),
                        y = LYMPH_NODES_EXAMINED_POSITIVE)) +
-  geom_violin(fill = "lightblue") +
-  labs(title = "Relationship between recurrance and examined lymph nodes", x = "", y = "Positive lymph nodes")
+  geom_boxplot() +
+  labs(title = "Positive lymph nodes by recurrence",
+       x = "", y = "Positive lymph nodes")
 ```
 
 ![](Project-Visualizations_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
