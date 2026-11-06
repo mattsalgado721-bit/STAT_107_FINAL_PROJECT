@@ -23,13 +23,13 @@ or breast cancer, similar to an actual medical research center.
       * The cancer type detailed includes the various forms of breast cancer and how frequently that specific type appears within the samples
       * The specific gene code is the main variable we will be focusing on since our question is directed towards reading specific genes associated with breast cancer to make valid predictions. It lists out types of genes, the count of mutations it has, and their frequency.
   * After cleaning up the data set, we decided on 8 variables to help answer our question. The variables and their significance are:
-    * ER_STATUS
-    * GRADE
-    * TMB_NONSYNONYMOUS
-    * TUMOR_SIZE
-    * AGE_AT_DIAGNOSIS
-    * LYMPH_NODES_EXAMINED_POSITIVE
-    * OS_BOOL
+    * ER_STATUS: Whether or not the tumor cells have estrogen. These types of tumors respond best to hormonal therapy and generally have a better outlook for treatment
+    * GRADE: The abnormality of the tumor under a microscope, a higher grade indicates faster growth and faster spread
+    * TMB_NONSYNONYMOUS: Stands for tumor mutation burden and is a count of how many protein-changing mutations the tumor has 
+    * TUMOR_SIZE: The size of the tumor at the time of diagnosis in mm
+    * AGE_AT_DIAGNOSIS: The age of the patient at the time of diagnosis
+    * LYMPH_NODES_EXAMINED_POSITIVE: The number of nearby lymph nodes that contained cancer, a higher number indicates that the cancer has spread 
+    * OS_BOOL: 
     * RFS_BOOL
 * **Visualization: What do these visualizations suggest about the hypothesis, model or simulation you are aiming to perform? If you aim to generate further data visualizations, describe them here.** 
   * text here
