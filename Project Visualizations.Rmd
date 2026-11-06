@@ -17,7 +17,7 @@ cleaned_df <- read_csv("cleaned_clinical_data.csv") %>%
 
 ggplot(cleaned_df, aes(TUMOR_SIZE, LYMPH_NODES_EXAMINED_POSITIVE, color = Reccurance)) +
   geom_point(size = 2, alpha = 0.7) + scale_color_manual(values = c("hotpink2", "lightskyblue")) +
-  labs(title = "Tumor size vs. positive lymph nodes",
+  labs(title = "Tumor size (mm) vs. positive lymph nodes",
        x = "Tumor size",
        y = "Positive lymph nodes")
 
