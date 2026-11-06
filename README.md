@@ -15,25 +15,33 @@ statistical procedures such as linear or logistic regression with the genetic
 profile, and classify/return if the person of interest is at risk of any tumor 
 or breast cancer, similar to an actual medical research center. 
 * **Executive Summary: provide, in a series of 3-5 bulletpoints, what are the core conclusions and findings of your analysis so far.**
-  * text here
-  * 
+  * So far, we have found that ???
 * **Data: Where did you source the data, What variable/observations are included, Summaries of the variables, Cleaning**
   * We sourced the data from cbioportal.org's targeted sequencing of primary breast tumors.
   * The variables listed on the site that we are interested in further exploring include the cancer types detailed and the gene codes.
   *  Variable definitions:
       * The cancer type detailed includes the various forms of breast cancer and how frequently that specific type appears within the samples
       * The specific gene code is the main variable we will be focusing on since our question is directed towards reading specific genes associated with breast cancer to make valid predictions. It lists out types of genes, the count of mutations it has, and their frequency.
-  * DEFINE THE VARIABLES THAT WE'RE USING AND WHY   
+  * After cleaning up the data set, we decided on 8 variables to help answer our question. The variables and their significance are:
+    * ER_STATUS
+    * GRADE
+    * TMB_NONSYNONYMOUS
+    * TUMOR_SIZE
+    * AGE_AT_DIAGNOSIS
+    * LYMPH_NODES_EXAMINED_POSITIVE
+    * OS_BOOL
+    * RFS_BOOL
 * **Visualization: What do these visualizations suggest about the hypothesis, model or simulation you are aiming to perform? If you aim to generate further data visualizations, describe them here.** 
   * text here
 * **Analysis: Provide some preliminary plans of what analysis you aim to complete. Mention models, tests, procedures, and some ideas of what expected outcomes you hope to find.**
-  * text here
+  * We plan to use ?? models to better answer our questions
 * **Future work: Describe what is left to do and what is your plan**
   * We need to further analyze the results and flesh out the accuracy and cases of false positives, false negatives, etc.
 
 * **Contributions**
   * Member 1 - Sri
-    * Worked on the writing that explained our project details and ?
+    * Worked on the writing that explained our project details and created scatterplots that could help describe the relationship between several variables. 
+    The scatter plots could serve as supporting visuals for why there may or may not be relationships between the variables and will be further analyzed with models to better understand what the scatterplots could indicate. 
   * Member 2 did this []
   * Member 3 did this []
 
