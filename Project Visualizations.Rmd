@@ -1,6 +1,6 @@
 ---
 title: "Project Visualizations"
-output: github_document
+output: html_document
 ---
 
 An additional R Markdown file with visualizations, with appropriate interpretation of findings.
