@@ -26,9 +26,10 @@ or breast cancer, similar to an actual medical research center.
     * **AGE_AT_DIAGNOSIS**: The age of the patient at the time of diagnosis
     * **LYMPH_NODES_EXAMINED_POSITIV**E: The number of nearby lymph nodes that contained cancer, a higher number indicates that the cancer has spread 
     * **OS_BOOL**: Stands for overall survival status and is for if the patient has died. 0 means that the patient is living and 1 means that the patient has passed away
-    * **RFS_BOOL**: Stands for recurrence-free survival status and is for if the cancer came back. 0 means that there was no reccurance and 1 means that there was a recurrence
+    * **RFS_BOOL**: Stands for recurrence-free survival status and is for if the cancer came back. 0 means that there was no recurrence and 1 means that there was a recurrence
 * **Visualization: What do these visualizations suggest about the hypothesis, model or simulation you are aiming to perform? If you aim to generate further data visualizations, describe them here.** 
-  * Our visuals suggest that there may be a relationship between 
+  * Our scatter plot of 'Tumor size vs. positive lymph nodes' with the data points differentiated by if there was recurrence or not suggest that recurrence is typically indicated by a larger tumor size and more positive lymph nodes. 
+  Moreover, 
 * **Analysis: Provide some preliminary plans of what analysis you aim to complete. Mention models, tests, procedures, and some ideas of what expected outcomes you hope to find.**
   * We plan to use ?? models to better answer our questions
 * **Future work: Describe what is left to do and what is your plan**
@@ -36,7 +37,7 @@ or breast cancer, similar to an actual medical research center.
 
 * **Contributions**
   * Member 1 - Sri
-    * Worked on the writing that explained our project details and created scatterplots that could help describe the relationship between several variables. 
+    * Worked on the writing that explained our project details and created visuals (scatterplot and boxplot) that could help describe the relationship between several variables. 
     The scatter plots could serve as supporting visuals for why there may or may not be relationships between the variables and will be further analyzed with models to better understand what the scatterplots could indicate. Defined the variables being used in the project and their significance to understanding our topic.
   * Member 2 did this []
   * Member 3 did this []
