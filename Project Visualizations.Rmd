@@ -23,6 +23,12 @@ ggplot(cleaned_df, aes(TUMOR_SIZE, LYMPH_NODES_EXAMINED_POSITIVE, color = Reccur
 
 
 ```
+```{r}
+
+
+
+```
+
 
 ```{r}
 # histograms
