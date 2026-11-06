@@ -59,3 +59,25 @@ hist(cleaned_df$TUMOR_SIZE, main = "Distribution of Breast Tumor Sizes", xlab = 
 ```
 
 ![](Project-Visualizations_files/figure-gfm/unnamed-chunk-2-2.png)<!-- -->
+
+``` r
+boxplot(TUMOR_SIZE ~ OS_BOOL, 
+        data = cleaned_df,
+        main = "Overall Survival vs. Tumor Size",
+        xlab = "Overall Survival",
+        ylab = "Tumor Size (mm)")
+legend("topleft", c("0 = Living", "1 = Deceased"), cex = 0.8)
+```
+
+![](Project-Visualizations_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+
+``` r
+boxplot(AGE_AT_DIAGNOSIS ~ OS_BOOL, 
+        data = cleaned_df,
+        main = "Overall Survival vs. Age at Diagnosis",
+        xlab = "Overall Survival",
+        ylab = "Age at Diagnosis")
+legend("topleft", c("0 = Living", "1 = Deceased"), cex = 0.7)
+```
+
+![](Project-Visualizations_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
