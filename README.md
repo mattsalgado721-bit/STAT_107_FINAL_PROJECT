@@ -29,8 +29,8 @@ or breast cancer, similar to an actual medical research center.
     * TUMOR_SIZE: The size of the tumor at the time of diagnosis in mm
     * AGE_AT_DIAGNOSIS: The age of the patient at the time of diagnosis
     * LYMPH_NODES_EXAMINED_POSITIVE: The number of nearby lymph nodes that contained cancer, a higher number indicates that the cancer has spread 
-    * OS_BOOL: 
-    * RFS_BOOL
+    * OS_BOOL: Stands for overall survival status and is for if the patient has died. 0 means that the patient is living and 1 means that the patient has passed away
+    * RFS_BOOL: Stands for recurrence-free survival status and is for if the cancer came back. 0 means that there was no reccurance and 1 means that there was a recurrence
 * **Visualization: What do these visualizations suggest about the hypothesis, model or simulation you are aiming to perform? If you aim to generate further data visualizations, describe them here.** 
   * text here
 * **Analysis: Provide some preliminary plans of what analysis you aim to complete. Mention models, tests, procedures, and some ideas of what expected outcomes you hope to find.**
