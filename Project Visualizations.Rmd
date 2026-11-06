@@ -48,6 +48,8 @@ boxplot(TUMOR_SIZE ~ OS_BOOL,
         ylab = "Tumor Size (mm)")
 legend("topleft", c("0 = Living", "1 = Deceased"), cex = 0.8)
 ```
+
+
 ```{r}
 boxplot(AGE_AT_DIAGNOSIS ~ OS_BOOL, 
         data = cleaned_df,
