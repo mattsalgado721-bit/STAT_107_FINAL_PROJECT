@@ -23,3 +23,14 @@ ggplot(cleaned_df, aes(TUMOR_SIZE, LYMPH_NODES_EXAMINED_POSITIVE, color = Reccur
 
 
 ```
+
+```{r}
+# histograms
+
+hist(clinical_data$AGE_AT_DIAGNOSIS, main = "Distribution of Age at Breast Cancer Diagnosis", xlab = "Age at Diagnosis (Years)", ylab = "# of Patients", breaks = seq(20,100, by = 5), col = "cadetblue")
+
+hist(clinical_data$TUMOR_SIZE, main = "Distribution of Breast Tumor Sizes", xlab = "Tumor Size (mm)", ylab = "# of Patients", col = "cadetblue1")
+```
+
+
+
