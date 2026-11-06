@@ -18,10 +18,6 @@ or breast cancer, similar to an actual medical research center.
   * So far, we have found that ???
 * **Data: Where did you source the data, What variable/observations are included, Summaries of the variables, Cleaning**
   * We sourced the data from cbioportal.org's targeted sequencing of primary breast tumors.
-  * The variables listed on the site that we are interested in further exploring include the cancer types detailed and the gene codes.
-  *  Variable definitions:
-      * The cancer type detailed includes the various forms of breast cancer and how frequently that specific type appears within the samples
-      * The specific gene code is the main variable we will be focusing on since our question is directed towards reading specific genes associated with breast cancer to make valid predictions. It lists out types of genes, the count of mutations it has, and their frequency.
   * After cleaning up the data set, we decided on 8 variables to help answer our question. The variables and their significance are:
     * **ER_STATUS**: Whether or not the tumor cells have estrogen. These types of tumors respond best to hormonal therapy and generally have a better outlook for treatment
     * **GRADE**: The abnormality of the tumor under a microscope, a higher grade indicates faster growth and faster spread
@@ -32,7 +28,7 @@ or breast cancer, similar to an actual medical research center.
     * **OS_BOOL**: Stands for overall survival status and is for if the patient has died. 0 means that the patient is living and 1 means that the patient has passed away
     * **RFS_BOOL**: Stands for recurrence-free survival status and is for if the cancer came back. 0 means that there was no reccurance and 1 means that there was a recurrence
 * **Visualization: What do these visualizations suggest about the hypothesis, model or simulation you are aiming to perform? If you aim to generate further data visualizations, describe them here.** 
-  * text here
+  * Our visuals suggest that there may be a relationship between 
 * **Analysis: Provide some preliminary plans of what analysis you aim to complete. Mention models, tests, procedures, and some ideas of what expected outcomes you hope to find.**
   * We plan to use ?? models to better answer our questions
 * **Future work: Describe what is left to do and what is your plan**
