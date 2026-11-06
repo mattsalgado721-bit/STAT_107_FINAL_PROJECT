@@ -4,7 +4,7 @@ Project Visualizations
 An additional R Markdown file with visualizations, with appropriate
 interpretation of findings.
 
-## tumor size vs. positive lymph nodes, colored by recurrence
+## Tumor size vs. positive lymph nodes, colored by recurrence
 
 ``` r
 library(tidyverse)
@@ -45,3 +45,17 @@ ggplot(cleaned_df, aes(TUMOR_SIZE, LYMPH_NODES_EXAMINED_POSITIVE, color = Reccur
 ```
 
 ![](Project-Visualizations_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
+
+``` r
+# histograms
+
+hist(cleaned_df$AGE_AT_DIAGNOSIS, main = "Distribution of Age at Breast Cancer Diagnosis", xlab = "Age at Diagnosis (Years)", ylab = "# of Patients", breaks = seq(20,100, by = 5), col = "cadetblue")
+```
+
+![](Project-Visualizations_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+
+``` r
+hist(cleaned_df$TUMOR_SIZE, main = "Distribution of Breast Tumor Sizes", xlab = "Tumor Size (mm)", ylab = "# of Patients", col = "cadetblue1")
+```
+
+![](Project-Visualizations_files/figure-gfm/unnamed-chunk-2-2.png)<!-- -->
