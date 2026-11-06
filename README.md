@@ -1,3 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # STAT_107_FINAL_PROJECT
 Repository for STAT107 final project.
 
@@ -5,7 +10,7 @@ Repository for STAT107 final project.
 
 * **Intro: What is the central question that motivates your analysis? Who may this analysis benefit? Are you trying to train a model, test a hypothesis, classify objects apart? Why? This has to be written with proper grammar and syntax: sentences, paragraphs, and a narrative structure.**
   * For our project, we want to answer the question "Using one’s genetic profile can 
-we predict the possibility of tumors/breast cancer".  We chose this as
+we predict the possibility of tumors/breast cancer". We chose this as
 our topic of interest because with breast cancer being one of the most common forms of cancer and there being various existing databases containing
 genetic information, we were interested in further exploring the correlations and diving into a common medical practice with R.
 We’ll be centering our research 
@@ -30,7 +35,8 @@ or breast cancer, similar to an actual medical research center.
     * **Recurrence**: Whether or not there was a recurrence of the cancer
 * **Visualization: What do these visualizations suggest about the hypothesis, model or simulation you are aiming to perform? If you aim to generate further data visualizations, describe them here.** 
   * Our scatter plot of 'Tumor size vs. positive lymph nodes' with the data points differentiated by if there was recurrence or not suggest that recurrence is typically indicated by a larger tumor size and more positive lymph nodes. 
-  Moreover, the box plot 'Positive lymph nodes by recurrence' suggest that no recurrence has a smaller cluster of positive lymph nodes 
+  Moreover, the box plot 'Positive lymph nodes by recurrence' suggest that 'No recurrence' has a smaller cluster of positive lymph nodes compared to 'Recurrence' that has a much larger cluster of positive lymph nodes. This box plot suggests that 
+  the larger the number of positive lymph nodes, the more likely there is to be a recurrence of the cancer.
 * **Analysis: Provide some preliminary plans of what analysis you aim to complete. Mention models, tests, procedures, and some ideas of what expected outcomes you hope to find.**
   * We plan to use ?? models to better answer our questions
 * **Future work: Describe what is left to do and what is your plan**
