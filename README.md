@@ -17,7 +17,7 @@ or breast cancer, similar to an actual medical research center.
 * **Executive Summary: provide, in a series of 3-5 bulletpoints, what are the core conclusions and findings of your analysis so far.**
   * So far, we have found that ???
 * **Data: Where did you source the data, What variable/observations are included, Summaries of the variables, Cleaning**
-  * We sourced the data from cbioportal.org's targeted sequencing of primary breast tumors.
+  * We sourced the data from cbioportal.org's targeted sequencing of primary breast tumors. After cleaning it up, our data set is 449 observations of 9 different variables. 
   * After cleaning up the data set, we decided on 8 variables to help answer our question. The variables and their significance are:
     * **ER_STATUS**: Whether or not the tumor cells have estrogen. These types of tumors respond best to hormonal therapy and generally have a better outlook for treatment
     * **GRADE**: The abnormality of the tumor under a microscope, a higher grade indicates faster growth and faster spread
@@ -27,6 +27,7 @@ or breast cancer, similar to an actual medical research center.
     * **LYMPH_NODES_EXAMINED_POSITIV**E: The number of nearby lymph nodes that contained cancer, a higher number indicates that the cancer has spread 
     * **OS_BOOL**: Stands for overall survival status and is for if the patient has died. 0 means that the patient is living and 1 means that the patient has passed away
     * **RFS_BOOL**: Stands for recurrence-free survival status and is for if the cancer came back. 0 means that there was no recurrence and 1 means that there was a recurrence
+    * **Recurrence**: Whether or not there was a recurrence of the cancer
 * **Visualization: What do these visualizations suggest about the hypothesis, model or simulation you are aiming to perform? If you aim to generate further data visualizations, describe them here.** 
   * Our scatter plot of 'Tumor size vs. positive lymph nodes' with the data points differentiated by if there was recurrence or not suggest that recurrence is typically indicated by a larger tumor size and more positive lymph nodes. 
   Moreover, 
