@@ -18,19 +18,19 @@ or breast cancer, similar to an actual medical research center.
   * So far, we have found that ???
 * **Data: Where did you source the data, What variable/observations are included, Summaries of the variables, Cleaning**
   * We sourced the data from cbioportal.org's targeted sequencing of primary breast tumors. After cleaning it up, our data set is 449 observations of 9 different variables. 
-  * After cleaning up the data set, we decided on 8 variables to help answer our question. The variables and their significance are:
+  * After cleaning up the data set, we decided on 9 variables to help answer our question. The variables and their significance are:
     * **ER_STATUS**: Whether or not the tumor cells have estrogen. These types of tumors respond best to hormonal therapy and generally have a better outlook for treatment
     * **GRADE**: The abnormality of the tumor under a microscope, a higher grade indicates faster growth and faster spread
     * **TMB_NONSYNONYMOUS**: Stands for tumor mutation burden and is a count of how many protein-changing mutations the tumor has 
     * **TUMOR_SIZE**: The size of the tumor at the time of diagnosis in mm
     * **AGE_AT_DIAGNOSIS**: The age of the patient at the time of diagnosis
-    * **LYMPH_NODES_EXAMINED_POSITIV**E: The number of nearby lymph nodes that contained cancer, a higher number indicates that the cancer has spread 
+    * **LYMPH_NODES_EXAMINED_POSITIVE**: The number of nearby lymph nodes that contained cancer, a higher number indicates that the cancer has spread 
     * **OS_BOOL**: Stands for overall survival status and is for if the patient has died. 0 means that the patient is living and 1 means that the patient has passed away
     * **RFS_BOOL**: Stands for recurrence-free survival status and is for if the cancer came back. 0 means that there was no recurrence and 1 means that there was a recurrence
     * **Recurrence**: Whether or not there was a recurrence of the cancer
 * **Visualization: What do these visualizations suggest about the hypothesis, model or simulation you are aiming to perform? If you aim to generate further data visualizations, describe them here.** 
   * Our scatter plot of 'Tumor size vs. positive lymph nodes' with the data points differentiated by if there was recurrence or not suggest that recurrence is typically indicated by a larger tumor size and more positive lymph nodes. 
-  Moreover, 
+  Moreover, the box plot 'Positive lymph nodes by recurrence' suggest that no recurrence has a smaller cluster of positive lymph nodes 
 * **Analysis: Provide some preliminary plans of what analysis you aim to complete. Mention models, tests, procedures, and some ideas of what expected outcomes you hope to find.**
   * We plan to use ?? models to better answer our questions
 * **Future work: Describe what is left to do and what is your plan**
@@ -44,7 +44,7 @@ or breast cancer, similar to an actual medical research center.
   * Member 3 did this []
 
 
-be sure to include this in the final project: 
+**BE SURE TO INCLUDE THIS IN THE FINAL PROJECT AS WELL**: 
 • Data: What is the data available for performing the analysis? Where did you retrieve these data from?
 What are the variables and number of observations available? What steps where performed to clean
 the data? If the data is obtained via randomized simulations, clarify the data generating procedure.
