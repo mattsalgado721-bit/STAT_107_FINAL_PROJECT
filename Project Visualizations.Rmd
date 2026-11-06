@@ -6,7 +6,7 @@ output: github_document
 An additional R Markdown file with visualizations, with appropriate interpretation of findings.
 
 
-## tumor size vs. positive lymph nodes, colored by recurrence
+## Tumor size vs. positive lymph nodes, colored by recurrence
 
 ```{r}
 
