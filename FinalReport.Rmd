@@ -39,7 +39,7 @@ to classify whether a patient is likely to experience a recurrence of breast can
 knitr::include_graphics("Project-Visualizations_files/figure-gfm/unnamed-chunk-1-1.png")
 ```
 
-  * Our scatter plot of 'Tumor size vs. positive lymph nodes' with the data points differentiated by if there was recurrence or not suggest that recurrence is typically indicated by a larger tumor size and more positive lymph nodes.
+Our scatter plot of 'Tumor size vs. positive lymph nodes' with the data points differentiated by if there was recurrence or not suggest that recurrence is typically indicated by a larger tumor size and more positive lymph nodes.
   
 ```{r}
 knitr::include_graphics("Project-Visualizations_files/figure-gfm/unnamed-chunk-2-1.png")
@@ -74,6 +74,7 @@ in the graph compared to the IQR for the living group. This suggest that age of 
   * We plan to use ?? models to better answer our question
 * **Future work: Describe what is left to do and what is your plan**
   * We need to further analyze the results and flesh out the accuracy and cases of false positives, false negatives, etc.
+  * The visuals here provide an associate, so we plan on using a regression model to test how well the variables predict recurrence. 
 
 * **Contributions**
   * Member 1 - Sri
