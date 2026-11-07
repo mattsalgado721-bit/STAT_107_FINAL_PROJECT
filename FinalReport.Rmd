@@ -4,6 +4,8 @@ author: "Matthew Salgado, Sri Shrayava Katukogula, Janhavi Shelar"
 output: html_document
 ---
 
+Repo link: <https://github.com/mattsalgado721-bit/STAT_107_FINAL_PROJECT>
+
 **ABSTRACT** 
 
 ## 1. ABSTRACT
