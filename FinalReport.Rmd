@@ -1,7 +1,9 @@
 ---
 title: "Predicting Breast Cancer Mortality Using Clinical and Genetic Profiles"
 author: "Matthew Salgado, Sri Shrayava Katukogula, Janhavi Shelar"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 **ABSTRACT** 
@@ -34,12 +36,12 @@ to classify whether a patient is likely to experience a recurrence of breast can
     * **Recurrence**: Whether or not there was a recurrence of the cancer
     
     
-##4. Visualization:
+## 4. Visualization:
 ```{r}
 knitr::include_graphics("Project-Visualizations_files/figure-gfm/unnamed-chunk-1-1.png")
 ```
 
-  * Our scatter plot of 'Tumor size vs. positive lymph nodes' with the data points differentiated by if there was recurrence or not suggest that recurrence is typically indicated by a larger tumor size and more positive lymph nodes.
+Our scatter plot of 'Tumor size vs. positive lymph nodes' with the data points differentiated by if there was recurrence or not suggest that recurrence is typically indicated by a larger tumor size and more positive lymph nodes.
   
 ```{r}
 knitr::include_graphics("Project-Visualizations_files/figure-gfm/unnamed-chunk-2-1.png")
@@ -70,21 +72,19 @@ knitr::include_graphics("Project-Visualizations_files/figure-gfm/unnamed-chunk-5
 From the box plot, the median age for the deceased group is around 70 years while the median age for the living group is a little below 60 years. The IQR for the deceased group is at a higher position
 in the graph compared to the IQR for the living group. This suggest that age of diagnosis is feasible for use in predicting whether a patient is likely to experience death.
 
-* **Analysis: Provide some preliminary plans of what analysis you aim to complete. Mention models, tests, procedures, and some ideas of what expected outcomes you hope to find.**
-  * We plan to use ?? models to better answer our question
-* **Future work: Describe what is left to do and what is your plan**
-  * We need to further analyze the results and flesh out the accuracy and cases of false positives, false negatives, etc.
+## 5. Analysis
+We plan to fit logistic regression models with our data and examine which variables are the best predictors. We will do this by utiziling glm since our outcomes, mortality and recurrence,
+are binary variables.
+  
+## 6. Future work
+* We need to further analyze the results and convert our predicted probabilities into binary classifications.
+* This will let us see how well our model performs, and we can respond accordingly to the results.
 
-* **Contributions**
+
+## Contributions
   * Member 1 - Sri
     * Worked on the writing that explained our project details and created visuals ('Tumor size vs. positive lymph nodes' and 'Positive lymph nodes by recurrence') that could help describe the relationship between several variables. The scatter plots could serve as supporting visuals for why there may or may not be relationships between the variables and will be further analyzed with models to better understand what the scatter plots could indicate. Defined the variables being used in the project and their significance to understanding our topic.
-  * Member 2 did this []
+  * Member 2 - Matthew Salgado
+    * Worked on the data cleaning, the abstract, introduction, analysis, future work, and adding the visual images to the final report. Created the two box plots comparing tumor size with overall survival and comparing
+      age at diagnosis with overall survival respectively.
   * Member 3 did this []
-
-
-**BE SURE TO INCLUDE THIS IN THE FINAL PROJECT AS WELL**: 
-• Data: What is the data available for performing the analysis? Where did you retrieve these data from?
-What are the variables and number of observations available? What steps where performed to clean
-the data? If the data is obtained via randomized simulations, clarify the data generating procedure.
-• Visualization: Provide preliminary visualizations in the form of histograms, density plots, scatter
-plots, box-plots, and numerical summaries of the data, depending on the type of analysis.
