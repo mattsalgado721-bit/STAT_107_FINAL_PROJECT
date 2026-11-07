@@ -56,6 +56,18 @@ ggplot(cleaned_df, aes(x = factor(RFS_BOOL, labels = c("No recurrence", "Recurre
 
 ![](Project-Visualizations_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
 
+Our scatter plot of ‘Tumor size vs. positive lymph nodes’ with the data
+points colored by recurrence suggest that recurrence tends to occur in
+patients with larger tumor sizes and more positive lymph nodes.
+Moreover, the box plot ‘Positive lymph nodes by recurrence’ shows that
+patients with no recurrence had a few to no positive lymph nodes while
+patients who did have recurrence had much higher counts and a larger
+spread across the boxplot. This suggests that the more positive lymph
+nodes that a patient has, the more likely that cancer is to reoccur. A
+possible explanation is that positive lymph nodes indicate that the
+cancer had already spread beyond the original tumor. Once spread, it’s a
+lot harder to contain which helps explain the high likeliness of cancer.
+
 ``` r
 # histograms
 
@@ -80,6 +92,11 @@ legend("topleft", c("0 = Living", "1 = Deceased"), cex = 0.8)
 ```
 
 ![](Project-Visualizations_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+From the boxplot, the median tumor size for deceased patients is larger
+than the median tumor size for living patients. THE IQR for the deceased
+group, starts at a higher tumor size and is much larger than the IQR for
+the living group. We also obsevre that the biggest outliers for tumor
+size lay in the deceased group.
 
 ``` r
 boxplot(AGE_AT_DIAGNOSIS ~ OS_BOOL, 
@@ -91,3 +108,7 @@ legend("topleft", c("0 = Living", "1 = Deceased"), cex = 0.7)
 ```
 
 ![](Project-Visualizations_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+From the boxplot, the median age for the deceased group is around 70
+years while the median age for the living group is a little below 60
+years. The IQR for the deceased group is at a higher position in the
+graph compared to the IQR for the living group.
