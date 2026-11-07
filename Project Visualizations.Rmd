@@ -33,6 +33,7 @@ ggplot(cleaned_df, aes(x = factor(RFS_BOOL, labels = c("No recurrence", "Recurre
        x = "", y = "Positive lymph nodes")
 ```
 
+Our scatter plot of 'Tumor size vs. positive lymph nodes' with the data points colored by recurrence suggest that recurrence tends to occur in patients with larger tumor sizes and more positive lymph nodes. Moreover, the box plot 'Positive lymph nodes by recurrence' shows that patients with no recurrence had a few to no positive lymph nodes while patients who did have recurrence had much higher counts and a larger spread across the boxplot. This suggests that the more positive lymph nodes that a patient has, the more likely that cancer is to reoccur. A possible explanation is that positive lymph nodes indicate that the cancer had already spread beyond the original tumor. Once spread, it's a lot harder to contain which helps explain the high likeliness of cancer. 
 
 ```{r}
 # histograms
