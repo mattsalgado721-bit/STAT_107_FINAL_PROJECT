@@ -1,5 +1,6 @@
 ---
-title: "FinalReport"
+title: "Predicting Breast Cancer Mortality Using Clinical and Genetic Profiles"
+author: "Matthew Salgado, Sri Shrayava Katukogula, Janhavi Shelar"
 output: html_document
 ---
 
@@ -10,15 +11,18 @@ output:
 ---
 
 ## 1. ABSTRACT
-For our project, we want to answer the question "Using one’s genetic profile can we predict the possibility of tumors/breast cancer". We chose this as
-our topic of interest because with breast cancer being one of the most common forms of cancer and there being various existing databases containing
-genetic information, we were interested in further exploring the correlations and diving into a common medical practice with R.
-We’ll be centering our research around specific genes that flag tumors and breast cancer more often such as TP53, 
-BRCA1, BRCA2, CDKN2A, etc. Our goal is to extract the data, perform various 
-statistical procedures such as linear or logistic regression with the genetic 
-profile, and classify/return if the person of interest is at risk of any tumor 
-or breast cancer, similar to an actual medical research center. 
-* **Executive Summary: provide, in a series of 3-5 bulletpoints, what are the core conclusions and findings of your analysis so far.**
+Breast cancer is a very complex disease with multiple variables that contribute to the recurrence of such cancer as well as mortality from the disease.
+In this project, our primary goal is to determine whether the likelihood of breast cancer recurrence and mortality can be predicted using a patient's
+genetic profile and clinical data. The current visual analysis using scatter plots, histograms, and box plots suggest that it is feasible to predict
+breast recurrence and mortality with the genetic and clinical data.
+
+## 2. Introduction
+For our project, we want to focus on the the question: using a patient’s genetic and clinical profile, can we predict the likelihood of breast cancer 
+recurrence or mortality? We’ll be centering our research around specific genetic factors such as tumor mutational burden and clinical data such as tumor 
+size, estrogen receptor status, and age at diagnosis. Our goal is to extract the data, perform various statistical procedures such as logistic regression
+to classify whether a patient is likely to experience a recurrence of breast cancer or death, similar to an actual medical research center.
+
+## 3. Executive Summary
   * So far, we have found that ???
 * **Data: Where did you source the data, What variable/observations are included, Summaries of the variables, Cleaning**
   * We sourced the data from cbioportal.org's targeted sequencing of primary breast tumors. After cleaning it up, our data set is 449 observations of 9 different variables. 
@@ -32,10 +36,44 @@ or breast cancer, similar to an actual medical research center.
     * **OS_BOOL**: Stands for overall survival status and is for if the patient has died. 0 means that the patient is living and 1 means that the patient has passed away
     * **RFS_BOOL**: Stands for recurrence-free survival status and is for if the cancer came back. 0 means that there was no recurrence and 1 means that there was a recurrence
     * **Recurrence**: Whether or not there was a recurrence of the cancer
-* **Visualization: What do these visualizations suggest about the hypothesis, model or simulation you are aiming to perform? If you aim to generate further data visualizations, describe them here.** 
-  * Our scatter plot of 'Tumor size vs. positive lymph nodes' with the data points differentiated by if there was recurrence or not suggest that recurrence is typically indicated by a larger tumor size and more positive lymph nodes. 
-  Moreover, the box plot 'Positive lymph nodes by recurrence' suggest that 'No recurrence' has a smaller cluster of positive lymph nodes compared to 'Recurrence' that has a much larger cluster of positive lymph nodes. This box plot suggests that 
-  the larger the number of positive lymph nodes, the more likely there is to be a recurrence of the cancer.
+    
+    
+##4. Visualization:
+```{r}
+knitr::include_graphics("Project-Visualizations_files/figure-gfm/unnamed-chunk-1-1.png")
+```
+
+  * Our scatter plot of 'Tumor size vs. positive lymph nodes' with the data points differentiated by if there was recurrence or not suggest that recurrence is typically indicated by a larger tumor size and more positive lymph nodes.
+  
+```{r}
+knitr::include_graphics("Project-Visualizations_files/figure-gfm/unnamed-chunk-2-1.png")
+```
+
+Moreover, the box plot 'Positive lymph nodes by recurrence' suggest that 'No recurrence' has a smaller cluster of positive lymph nodes compared to 'Recurrence' that has a much larger cluster of positive lymph nodes. This box plot suggests that the larger the number of positive lymph nodes, the more likely there is to be a recurrence of the cancer.
+
+```{r}
+knitr::include_graphics("Project-Visualizations_files/figure-gfm/unnamed-chunk-3-1.png")
+```
+
+```{r}
+knitr::include_graphics("Project-Visualizations_files/figure-gfm/unnamed-chunk-3-2.png")
+```
+
+```{r}
+knitr::include_graphics("Project-Visualizations_files/figure-gfm/unnamed-chunk-4-1.png")
+```
+
+From the box plot, the median tumor size for deceased patients is larger than the median tumor size for living patients. THE IQR for the deceased group, starts
+at a higher tumor size and is much larger than the IQR for the living group. We also observe that the biggest outliers for tumor size lay in the deceased group.
+This suggests that it would be feasible to use tumor size to predict whether a patient is likely to experience death.
+
+```{r}
+knitr::include_graphics("Project-Visualizations_files/figure-gfm/unnamed-chunk-5-1.png")
+```
+
+From the box plot, the median age for the deceased group is around 70 years while the median age for the living group is a little below 60 years. The IQR for the deceased group is at a higher position
+in the graph compared to the IQR for the living group. This suggest that age of diagnosis is feasible for use in predicting whether a patient is likely to experience death.
+
 * **Analysis: Provide some preliminary plans of what analysis you aim to complete. Mention models, tests, procedures, and some ideas of what expected outcomes you hope to find.**
   * We plan to use ?? models to better answer our question
 * **Future work: Describe what is left to do and what is your plan**
