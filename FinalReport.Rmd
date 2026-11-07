@@ -1,6 +1,6 @@
 ---
 title: "Predicting Breast Cancer Mortality Using Clinical and Genetic Profiles"
-author: "Matthew Salgado, Sri Shrayava Katukogula, Janhavi Shelar"
+author: "Matthew Salgado, Sri Shravya Katukogula, Janhavi Shelar"
 output:
   pdf_document: default
   html_document: default
