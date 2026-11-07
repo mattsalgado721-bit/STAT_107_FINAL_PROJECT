@@ -3,7 +3,8 @@ title: "FinalReport"
 output: pdf_document
 ---
 
-## 1. ABSTRACT
+**ABSTRACT** 
+
 For our project, we want to answer the question "Using one’s genetic profile can we predict the possibility of tumors/breast cancer". We chose this as
 our topic of interest because with breast cancer being one of the most common forms of cancer and there being various existing databases containing
 genetic information, we were interested in further exploring the correlations and diving into a common medical practice with R.
