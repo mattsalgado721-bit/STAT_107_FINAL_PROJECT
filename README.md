@@ -5,6 +5,7 @@ output:
 ---
 # STAT_107_FINAL_PROJECT
 Repository for STAT107 final project.
+Link to our repository: <https://github.com/mattsalgado721-bit/STAT_107_FINAL_PROJECT>
 
 **ABSTRACT**
 
@@ -34,9 +35,7 @@ or breast cancer, similar to an actual medical research center.
     * **RFS_BOOL**: Stands for recurrence-free survival status and is for if the cancer came back. 0 means that there was no recurrence and 1 means that there was a recurrence
     * **Recurrence**: Whether or not there was a recurrence of the cancer
 * **Visualization: What do these visualizations suggest about the hypothesis, model or simulation you are aiming to perform? If you aim to generate further data visualizations, describe them here.** 
-  * Our scatter plot of 'Tumor size vs. positive lymph nodes' with the data points differentiated by if there was recurrence or not suggest that recurrence is typically indicated by a larger tumor size and more positive lymph nodes. 
-  Moreover, the box plot 'Positive lymph nodes by recurrence' suggest that 'No recurrence' has a smaller cluster of positive lymph nodes compared to 'Recurrence' that has a much larger cluster of positive lymph nodes. This box plot suggests that 
-  the larger the number of positive lymph nodes, the more likely there is to be a recurrence of the cancer.
+  * text here
 * **Analysis: Provide some preliminary plans of what analysis you aim to complete. Mention models, tests, procedures, and some ideas of what expected outcomes you hope to find.**
   * We plan to use ?? models to better answer our question
 * **Future work: Describe what is left to do and what is your plan**
