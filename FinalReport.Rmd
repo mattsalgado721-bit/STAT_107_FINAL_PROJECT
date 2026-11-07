@@ -1,12 +1,6 @@
 ---
 title: "FinalReport"
-output: html_document
----
-
----
-output:
-  pdf_document: default
-  html_document: default
+output: pdf_document
 ---
 
 ## 1. ABSTRACT
