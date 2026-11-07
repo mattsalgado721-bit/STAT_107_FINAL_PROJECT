@@ -27,9 +27,10 @@ to classify whether a patient is likely to experience a recurrence of breast can
 * Through histograms, we were able to identify a specific age range at diagnosis (years) that has the highest count of patients to further determine and narrow down when the recurrences are more likely to appear
 * Alongside another histogram that helps us visualize the ranges of tumor sizes (mm) that the most patients logged, going hand in hand with the previous observation that the higher counts of positive lymph nodes and bigger tumor sizes are directly related, indicating a harder-to-contain cancer
 * From the boxplots, we observed that mortality for breast cancer patients depends on factors such as tumor size (the smaller the tumor, the higher the chance of survival) and age (those below 70 years have a higher chance of survival), since breast cancer recurrence would only happen in those who have had it and eliminated it at least once before.
-* **Data: Where did you source the data, What variable/observations are included, Summaries of the variables, Cleaning**
-  * We sourced the data from cbioportal.org's targeted sequencing of primary breast tumors. After cleaning it up, our data set is 449 observations of 9 different variables. 
-  * After cleaning up the data set, we decided on 9 variables to help answer our question. The variables and their significance are:
+
+## 4, Data
+* We sourced the data from cbioportal.org's targeted sequencing of primary breast tumors. After cleaning it up, our data set is 449 observations of 9 different variables. 
+* After cleaning up the data set, we decided on 9 variables to help answer our question. The variables and their significance are:
     * **ER_STATUS**: Whether or not the tumor cells have estrogen. These types of tumors respond best to hormonal therapy and generally have a better outlook for treatment
     * **GRADE**: The abnormality of the tumor under a microscope, a higher grade indicates faster growth and faster spread
     * **TMB_NONSYNONYMOUS**: Stands for tumor mutation burden and is a count of how many protein-changing mutations the tumor has 
@@ -41,7 +42,7 @@ to classify whether a patient is likely to experience a recurrence of breast can
     * **Recurrence**: Whether or not there was a recurrence of the cancer
     
     
-## 4. Visualization:
+## 5. Visualization:
 ```{r}
 knitr::include_graphics("Project-Visualizations_files/figure-gfm/unnamed-chunk-1-1.png")
 ```
@@ -80,11 +81,11 @@ knitr::include_graphics("Project-Visualizations_files/figure-gfm/unnamed-chunk-5
 From the box plot, the median age for the deceased group is around 70 years while the median age for the living group is a little below 60 years. The IQR for the deceased group is at a higher position
 in the graph compared to the IQR for the living group. This suggest that age of diagnosis is feasible for use in predicting whether a patient is likely to experience death.
 
-## 5. Analysis
+## 6. Analysis
 We plan to fit logistic regression models with our data and examine which variables are the best predictors. We will do this by utiziling glm since our outcomes, mortality and recurrence,
 are binary variables.
   
-## 6. Future work
+## 7. Future work
 * We need to further analyze the results and convert our predicted probabilities into binary classifications.
 * This will let us see how well our model performs, and we can respond accordingly to the results.
 
