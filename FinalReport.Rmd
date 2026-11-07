@@ -95,4 +95,5 @@ are binary variables.
   * Member 2 - Matthew Salgado
     * Worked on the data cleaning, the abstract, introduction, analysis, future work, and adding the visual images to the final report. Created the two box plots comparing tumor size with overall survival and comparing
       age at diagnosis with overall survival respectively.
-  * Member 3 did this []
+  * Member 3 - Janhavi Shelar
+    * Worked on the executive summary for our observations and created histograms to model tumor sizes and the age demographic for patients diagnosed with summaries, and versions of the readme.
