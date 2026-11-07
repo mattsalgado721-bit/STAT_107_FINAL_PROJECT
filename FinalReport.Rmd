@@ -23,7 +23,6 @@ size, estrogen receptor status, and age at diagnosis. Our goal is to extract the
 to classify whether a patient is likely to experience a recurrence of breast cancer or death, similar to an actual medical research center.
 
 ## 3. Executive Summary
-  * So far, we have found that ???
   - We have found through scatterplots that when examining the count of patients' lymph nodes, there exists a positive and strong correlation with tumor size, suggesting that when there are higher counts of positive lymph nodes, the cancer itself is harder to contain, which may explain recurrences.
 - Through histograms, we were able to identify a specific age range at diagnosis (years) that has the highest count of patients to further determine and narrow down when the recurrences are more likely to appear
 -Alongside another histogram that helps us visualize the ranges of tumor sizes (mm) that the most patients logged, going hand in hand with the previous observation that the higher counts of positive lymph nodes and bigger tumor sizes are directly related, indicating a harder-to-contain cancer
