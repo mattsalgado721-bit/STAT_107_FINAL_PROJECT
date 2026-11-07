@@ -46,7 +46,7 @@ or breast cancer, similar to an actual medical research center.
 * **Contributions**
   * Member 1 - Sri
     * Worked on the writing that explained our project details and created visuals ('Tumor size vs. positive lymph nodes' and 'Positive lymph nodes by recurrence') that could help describe the relationship between several variables. 
-    The scatter plots could serve as supporting visuals for why there may or may not be relationships between the variables and will be further analyzed with models to better understand what the scatterplots could indicate. Defined the variables being used in the project and their significance to understanding our topic.
+    The scatter plots could serve as supporting visuals for why there may or may not be relationships between the variables and will be further analyzed with models to better understand what the scatter plots could indicate. Defined the variables being used in the project and their significance to understanding our topic.
   * Member 2 did this []
   * Member 3 did this []
 

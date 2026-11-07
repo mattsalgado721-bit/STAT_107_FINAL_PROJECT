@@ -4,11 +4,7 @@ author: "Matthew Salgado, Sri Shrayava Katukogula, Janhavi Shelar"
 output: html_document
 ---
 
----
-output:
-  pdf_document: default
-  html_document: default
----
+**ABSTRACT** 
 
 ## 1. ABSTRACT
 Breast cancer is a very complex disease with multiple variables that contribute to the recurrence of such cancer as well as mortality from the disease.
@@ -81,8 +77,7 @@ in the graph compared to the IQR for the living group. This suggest that age of 
 
 * **Contributions**
   * Member 1 - Sri
-    * Worked on the writing that explained our project details and created visuals (scatterplot and boxplot) that could help describe the relationship between several variables. 
-    The scatter plots could serve as supporting visuals for why there may or may not be relationships between the variables and will be further analyzed with models to better understand what the scatterplots could indicate. Defined the variables being used in the project and their significance to understanding our topic.
+    * Worked on the writing that explained our project details and created visuals ('Tumor size vs. positive lymph nodes' and 'Positive lymph nodes by recurrence') that could help describe the relationship between several variables. The scatter plots could serve as supporting visuals for why there may or may not be relationships between the variables and will be further analyzed with models to better understand what the scatter plots could indicate. Defined the variables being used in the project and their significance to understanding our topic.
   * Member 2 did this []
   * Member 3 did this []
 
