@@ -57,10 +57,13 @@ Moreover, the box plot 'Positive lymph nodes by recurrence' suggest that 'No rec
 ```{r}
 knitr::include_graphics("Project-Visualizations_files/figure-gfm/unnamed-chunk-3-1.png")
 ```
+The first histogram represents the distribution of age at breast cancer diagnosis, with a range from 20-100 years and a spacing of 20 years. The shape seems to be fairly symmetrical and balanced and centered in the middle. Most patients were diagnosed between 45 and 85 years old. There don’t seem to be any apparent outliers, the mode of the histogram for the relationship is uni-modal around 55-60 years with the number of patients reaching 60 within the sample.
 
 ```{r}
 knitr::include_graphics("Project-Visualizations_files/figure-gfm/unnamed-chunk-3-2.png")
 ```
+The second histogram represents the Distribution of breast tumor sizes diagnosis with a range from 0-150 mm with spacing of 50 mm, though most tumors seem to be below 50 mm. The highest number of patients have tumor sizes of 20-40 mm. The shape is strongly right-skewed and there don’t seem to be many outliers; there is a possibility of larger tumor sizes around 150+ mm at the end of the histogram. The mode of the histogram for the relationship is 20-30 mm (unimodal) with the number of patients exceeding a count of 200 within the sample.
+Based on the histograms it is reasonable to assume that the chances of breast cancer reoccurring are higher if the individual is between ages 45-80, and tumor sizes between 20-30 mm are more apparent.
 
 ```{r}
 knitr::include_graphics("Project-Visualizations_files/figure-gfm/unnamed-chunk-4-1.png")
