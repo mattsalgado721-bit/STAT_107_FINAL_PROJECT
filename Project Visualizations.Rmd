@@ -50,7 +50,8 @@ boxplot(TUMOR_SIZE ~ OS_BOOL,
         ylab = "Tumor Size (mm)")
 legend("topleft", c("0 = Living", "1 = Deceased"), cex = 0.8)
 ```
-
+From the boxplot, the median tumor size for deceased patients is larger than the median tumor size for living patients. THE IQR for the deceased group, starts
+at a higher tumor size and is much larger than the IQR for the living group. We also obsevre that the biggest outliers for tumor size lay in the deceased group.
 
 ```{r}
 boxplot(AGE_AT_DIAGNOSIS ~ OS_BOOL, 
@@ -60,5 +61,6 @@ boxplot(AGE_AT_DIAGNOSIS ~ OS_BOOL,
         ylab = "Age at Diagnosis")
 legend("topleft", c("0 = Living", "1 = Deceased"), cex = 0.7)
 ```
-
+From the boxplot, the median age for the deceased group is around 70 years while the median age for the living group is a little below 60 years. The IQR for the deceased group is at a higher position
+in the graph compared to the IQR for the living group.
 
